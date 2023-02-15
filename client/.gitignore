@@ -46,3 +46,7 @@ ssl/server.crt
 ssl/server.key
 src/environments/environment.ts
 src/environments/environment.prod.ts
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
