@@ -44,3 +44,4 @@ Thumbs.db
 # Development
 ssl/server.crt
 ssl/server.key
+src/environments/environment.ts
