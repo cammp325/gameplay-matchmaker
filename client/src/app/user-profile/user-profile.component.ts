@@ -17,8 +17,7 @@ export class UserProfileComponent implements OnInit {
   onInitialize() {
     this.userProfileForm = new FormGroup({
       userName: new FormControl('', Validators.required),
-      password: new FormControl('', Validators.required),
-      confirmPassword: new FormControl('', Validators.required)
+      skillLevel: new FormControl('')
     });
   }
 
