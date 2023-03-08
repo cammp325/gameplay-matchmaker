@@ -5,19 +5,24 @@
     <div class="card-body">
 
         <h5 class="card-title">User Profile</h5>
-        <form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()">
+        <form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()" autocomplete="off">
 
-            <div class="form-group" style="padding:10px;">
+            <div class="form-group" style="padding:2px;">
                 <label for="user-name" class="control-label">User Name: </label>
                 <input id="user-name" type="text" formControlName="userName" class="form-control">
             </div>
 
-            <div class="form-group" style="padding:10px;">
-                <label for="skill-level" class="control-label">Skill Level: </label>
-                <input id="skill-level" type="text" formControlName="skillLevel" class="form-control">
+            <div class="form-group" style="padding:2px;">
+                <label for="pass-word" class="control-label">Password: </label>
+                <input id="pass-word" type="text" formControlName="password" class="form-control">
             </div>
 
-            <div class="form-group" style="padding:10px;">
+            <div class="form-group" style="padding:2px;">
+                <label for="confirm-password" class="control-label">Confirm Password: </label>
+                <input id="confirm-password" type="text" formControlName="confirmPassword" class="form-control">
+            </div>
+
+            <div class="form-group" style="padding:10px 0px 0px 2px;">
                 <button type="submit" class="btn btn-primary" [disabled]="!userProfileForm.valid">Submit</button>
             </div>
         </form>

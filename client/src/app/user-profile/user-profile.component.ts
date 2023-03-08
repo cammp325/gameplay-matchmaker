@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
@@ -6,12 +6,21 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   templateUrl: './user-profile.component.html',
   styleUrls: ['./user-profile.component.css']
 })
-export class UserProfileComponent {
+export class UserProfileComponent implements OnInit {
+  userModel: any = {}
+  userProfileForm: FormGroup = new FormGroup({})
 
-  userProfileForm = new FormGroup({
-    userName: new FormControl('', Validators.required),
-    skillLevel: new FormControl(''),
-  });
+  ngOnInit(): void {
+    this.onInitialize();
+  }
+
+  onInitialize() {
+    this.userProfileForm = new FormGroup({
+      userName: new FormControl('', Validators.required),
+      password: new FormControl('', Validators.required),
+      confirmPassword: new FormControl('', Validators.required)
+    });
+  }
 
   onSubmit() {
     // TODO
