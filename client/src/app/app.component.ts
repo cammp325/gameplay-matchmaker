@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     // Get data from Web Service
-    // this.http.get(https://)
+    // this.http.get('https://localhost')
   }
 
 }

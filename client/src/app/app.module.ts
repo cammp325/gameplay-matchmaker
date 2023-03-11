@@ -14,6 +14,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SettingsComponent } from './settings/settings.component';
 import { MemberProfileComponent } from './member-profile/member-profile.component';
+import { UserGamesComponent } from './user-games/user-games.component';
+import { UserFriendsComponent } from './user-friends/user-friends.component';
+import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { MemberProfileComponent } from './member-profile/member-profile.componen
     HomePageComponent,
     NavBarComponent,
     SettingsComponent,
-    MemberProfileComponent
+    MemberProfileComponent,
+    UserGamesComponent,
+    UserFriendsComponent,
+    ProfileDetailsComponent
   ],
   imports: [
     BrowserModule,

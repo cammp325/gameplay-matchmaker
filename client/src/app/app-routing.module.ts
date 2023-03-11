@@ -8,11 +8,11 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
 const routes: Routes = [
   { path: '', component: UserProfileComponent },
+  { path: 'home', component: HomePageComponent },
   { path: 'profile', component: ProfilePageComponent },
   { path: 'profile/:id', component: MemberProfileComponent },
-  { path: 'home', component: HomePageComponent },
   { path: 'settings', component: SettingsComponent },
-  { path: '**', component: ProfilePageComponent, pathMatch: 'full' },
+  { path: '**', component: HomePageComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
