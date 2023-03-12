@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { UserProfileComponent } from './user-profile.component';
 
 describe('UserProfileComponent', () => {
@@ -8,9 +7,9 @@ describe('UserProfileComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UserProfileComponent ]
+      declarations: [UserProfileComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(UserProfileComponent);
     component = fixture.componentInstance;
@@ -20,4 +19,21 @@ describe('UserProfileComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should require a username', () => {
+    component.userProfileForm.setValue({
+      "userName": "",
+      "skillLevel": ""
+    });
+    expect(component.userProfileForm.valid).toEqual(false);
+  });
+
+  it('form should be valid with a username', () => {
+    component.userProfileForm.setValue({
+      "userName": "test",
+      "skillLevel": ""
+    });
+    expect(component.userProfileForm.valid).toEqual(true);
+  });
+
 });
