@@ -20,4 +20,11 @@ describe('SettingsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should be valid with a password', () => {
+    component.userSettingsForm.setValue({
+      "password": "test"
+    });
+    expect(component.userSettingsForm.valid).toEqual(true)
+  });
 });
