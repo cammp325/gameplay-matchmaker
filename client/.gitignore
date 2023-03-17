@@ -45,6 +45,10 @@ Thumbs.db
 # Development
 ssl/server.crt
 ssl/server.key
+
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
 src/environments/environment-firebase.ts
 src/environments/environment.prod-firebase.ts
 

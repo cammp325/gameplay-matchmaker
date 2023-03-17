@@ -1,2 +1,4 @@
 /.vscode
 .vscode/*
+client/src/environments/environment-firebase.ts
+client/src/environments/environment.prod-firebase.ts
