@@ -62,9 +62,3 @@ Sprint 1
 
     Sprint Review:
     https://kennesawedu.sharepoint.com/:v:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Recordings/SWE%206813%20Team%201%20Meeting-20230316_213604-Meeting%20Recording.mp4?csf=1&web=1&e=rbHkqF
-
-**Story Points Forecast**: 
-You have a forecast of how many story points your team can complete during this sprint. The forecast along with its rationale are documented in your git’s repo.
-
-**Kanban Board**: 
-The kanban board, or a URL of the kanban board (from your online management tool), is documented in your git’s repo.
