@@ -1,1 +1,21 @@
 <p>Settings page</p>
+
+<div class="card">
+    <div class="card-header">
+        User Settings Page
+    </div>
+<div class="card-body">
+    <h5 class="card-title">User Settings</h5>
+    <form [formGroup]="userSettingsForm" (ngSubmit)="onSubmit()" autocomplete="off">
+
+        <div class="form-group" style="padding:2px;">
+            <label for="password" class="control-label">Password: </label>
+            <input id="password" type="text" formControlName="password" class="form-control">
+        </div>
+
+        <div class="form-group" style="padding:10px 0px 0px 2px;">
+            <button type="submit" class="btn btn-primary" [disabled]="!userSettingsForm.valid">Submit</button>
+        </div>
+    </form>
+</div>
+</div>
