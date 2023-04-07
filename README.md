@@ -3,12 +3,6 @@ Matching online gamers beyond just skill
 
 **URL**: [Gameplay Matchmaker](https://game-play.azurewebsites.net)
 
-**Story Points Forecast**: 
-You have a forecast of how many story points your team can complete during this sprint. The forecast along with its rationale are documented in your git’s repo.
-
-**Kanban Board**: 
-The kanban board, or a URL of the kanban board (from your online management tool), is documented in your git’s repo.
-
 Sprint 1
 
     The forecast for Sprint 1 consists of a total of 53 story points. Many of these story points are in reference to setting up the project and organizing all tools needed. The main goal of this sprint was to have everyone linked to the Github and start to familiarize themselves with the Angular programming language and how it interacts with Firebase. This sprint also consisted of hard coding what we would like the application to look like. The next steps for thsi project are to make it dynamic and to have it begin fetching data from Firebase. The following images and links are references to this sprint. 
