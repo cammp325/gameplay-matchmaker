@@ -134,3 +134,57 @@ Sprint 2
         Sprint Review Video
         https://kennesawedu.sharepoint.com/sites/Team-SWE6813Team1/Shared%20Documents/General/Recordings/Sprint%202%20Review-20230405_204005-Meeting%20Recording.mp4?web=1
 
+Sprint 3
+
+    OVERVIEW
+
+        To begin this sprint, a total of 38 story points were generated. Some of these story points were carried over from those unfinished in Sprint 2. The remaining story points consisted of further development and presentation responsibilities. 
+
+    TASKS
+
+    https://kennesawedu.sharepoint.com/:i:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/tasks/swe6813_sprint3_tasks.png?csf=1&web=1&e=pcW4sU
+
+    IMAGES
+
+    TESTS
+
+        CICD LOG FILES
+
+            BUILD FILE
+            https://kennesawedu.sharepoint.com/:t:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/Tests%20and%20CICD/Github%20Actions%20Raw%20Log%20-%20Sprint3%20-%20Build.txt?csf=1&web=1&e=fkBNKc
+
+            DEPLOY FILE
+            https://kennesawedu.sharepoint.com/:t:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/Tests%20and%20CICD/Github%20Actions%20Raw%20Log%20-%20Sprint3%20-%20Deploy.txt?csf=1&web=1&e=eHw8j8
+
+    CICD
+
+    CHARTS & GRAPHS
+
+        BURNDOWN CHART
+        https://kennesawedu.sharepoint.com/:i:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/charts%26graphs/swe6813_sprint3_burndown.png?csf=1&web=1&e=bcrjsQ
+
+        KANBAN BOARD
+        https://kennesawedu.sharepoint.com/:i:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/charts%26graphs/swe6813_kanban.png?csf=1&web=1&e=lif0id
+
+        SPRINT REPORT
+        https://kennesawedu.sharepoint.com/:i:/r/sites/Team-SWE6813Team1/Shared%20Documents/General/Sprint%203/charts%26graphs/swe6813_sprint3_report.png?csf=1&web=1&e=wdgtZO
+
+    DAILY SCRUMS
+
+        VIDEO
+        https://kennesawedu.sharepoint.com/sites/Team-SWE6813Team1/Shared%20Documents/General/Recordings/SWE%206813%20Team%201%20Meeting-20230424_211148-Meeting%20Recording.mp4?web=1
+
+    SCRUM GOAL
+
+        The goal of the daily scrum was to provide a walk-through type session of how we are connecting the front-end environment to the back-end enviornment. The profile page of the application was the specific page used to demonstrate this capability. 
+
+    MOB SESSION
+
+        VIDEO
+        https://kennesawedu.sharepoint.com/sites/Team-SWE6813Team1/Shared%20Documents/General/Recordings/SWE%206813%20Team%201%20Meeting-20230424_211624-Meeting%20Recording.mp4?web=1
+
+    SPRINT REVIEW
+
+        VIDEO
+        https://kennesawedu-my.sharepoint.com/:v:/g/personal/cpage21_students_kennesaw_edu/EQxOVFQ0CclOu35NkkUQBu4B-Y4rfVMd6yC3CJD_UlFGNg
+
